@@ -12,3 +12,108 @@ img,
 video {
   display: block;
 }
+.carousel {
+  display: flex;
+  flex-direction: row;
+}
+.ticket {
+  width: 792px;
+  height: 365px;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px;
+  gap: 16px;
+  border-left: dotted;
+}
+.ticket img {
+  width: 326px;
+  height: 326px;
+}
+
+.ticket-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.ticket-text h1 {
+  color: #000;
+  font-family: "GT Pressura Trial";
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ticket-text h2 {
+  color: #000;
+  font-family: "GT Pressura Trial";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ticket-text p {
+  color: #000;
+  font-family: "GT Pressura Trial";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+}
+.ticket-text button {
+  color: #fff;
+  font-family: "GT Pressura Trial";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  margin-left: auto;
+  margin-top: 13px;
+}
+
+.ticket-text button {
+  border-radius: 6.38px;
+  background: #000;
+  display: flex;
+  width: 138px;
+  height: 35px;
+  padding: 8px 20px 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.975px;
+  position: absolute;
+  right: 0; /* à droite */
+  bottom: 0;
+}
+
+.ticket-left {
+  width: 208.709px;
+  height: 365.098px;
+  background: #d9d9d9;
+  padding: 20px 30px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-text {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  rotate: 270deg;
+  color: #000;
+  font-family: "GT Pressura Trial";
+  font-size: 10.119px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.ticket-left img {
+  width: 47.72;
+  height: 300.7;
+}
